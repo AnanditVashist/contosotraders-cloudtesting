@@ -855,7 +855,7 @@ resource ui2stgacc_roledefinition 'Microsoft.Authorization/roleDefinitions@2022-
   scope: subscription()
   // This is the Storage Account Contributor role, which is the minimum role permission we can give. 
   // See https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#:~:text=17d1049b-9a84-46fb-8f53-869881c3d3ab
-  name: '17d1049b-9a84-46fb-8f53-869881c3d3ab'
+  name: 'e5e2a7ff-d759-4cd2-bb51-3152d37e2eb1'
 }
 
 // This requires the service principal to be in 'owner' role or a custom role with 'Microsoft.Authorization/roleAssignments/write' permissions.
